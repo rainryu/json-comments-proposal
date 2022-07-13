@@ -111,15 +111,12 @@
         public SetupDemonConfig SetupDemoConfig { get; set; }
         [DataMember(EmitDefaultValue = false)]
         public UpdateDemonConfig UpdateDemoConfig { get; set; }
-
-   	 [DataMember(EmitDefaultValue = false)]
-    	public string **SetupDemoConfig_** { get; set; }
+        [DataMember(EmitDefaultValue = false)]
+        public string **SetupDemoConfig_** { get; set; }
         [DataMember(EmitDefaultValue = false)]
         public string **UpdateDemoConfig_** { get; set; }
-
-​        [DataMember(EmitDefaultValue = false)]
-​        public DeployConfig **_json** { get; set; }
-
+        [DataMember(EmitDefaultValue = false)]
+        public DeployConfig **_json** { get; set; }
 }
 
 ```
